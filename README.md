@@ -75,6 +75,11 @@ nest g module users
 nest g controller users
 # create new service
 nest g service users
+# install prisma
+
+npm install prisma --save-dev
+npm install @prisma/client
+psql -U abdulghafoor -d nest_course
 ```
 
 ## Deployment
