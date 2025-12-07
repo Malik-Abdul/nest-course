@@ -25,10 +25,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Project setup
+## Install NestJS
 
 ```bash
-$ npm install
+# $ npm install
+$ npm i -g @nestjs/cli
+$ nest new project-name
 ```
 
 ## Compile and run the project
@@ -55,6 +57,24 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+
+## Links
+
+[Intro]("https://docs.nestjs.com")
+
+Controllers are responsible for handling incoming requests and sending responses back to the client.
+[Controllers]("https://docs.nestjs.com/controllers")
+
+## New App
+
+```bash
+# create new module
+nest g module users
+# create new controller
+nest g controller users
+# create new service
+nest g service users
 ```
 
 ## Deployment

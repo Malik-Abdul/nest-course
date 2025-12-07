@@ -5,7 +5,8 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
+  // Basically controllers are handling the routes
+  @Get() // This is route
   getHello(): string {
     return this.appService.getHello();
   }
